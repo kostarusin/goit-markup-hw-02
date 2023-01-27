@@ -5,6 +5,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+
 .link {
   text-decoration: none;
   font-style: normal;
@@ -51,6 +52,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .header-adress:is(:hover, :focus) {
   color: #404bbf;
 }
@@ -60,11 +62,30 @@ body {
 .hero-item {
   background-color: #2e2f42;
 }
+
 .hero-header {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero-btn:is(:hover, :focus) {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 /*--------------Features--------------*/
@@ -79,12 +100,14 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .features-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+
 /*--------------Work description--------------*/
 
 .Work-description-item {
@@ -104,6 +127,7 @@ body {
 .our-team-item {
   background-color: #f4f4fd;
 }
+
 .our-team-header {
   font-weight: 700;
   font-size: 36px;
@@ -112,6 +136,7 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
 .our-team-title {
   font-weight: 500;
   font-size: 20px;
@@ -119,12 +144,14 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .our-team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+
 /*-----------------Footer-------------*/
 
 .footer-item {
@@ -139,6 +166,7 @@ body {
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -150,6 +178,31 @@ body {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
 .footer-logo-begin {
   color: #4d5ae5;
+}
+
+/*-----------Work Proposal Filter-------------*/
+
+.work-prop-item {
+}
+
+.work-prop-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+
+.work-prop-btn:is(:hover, :focus) {
+  color: #ffffff;
+  background-color: #404bbf;
 }
