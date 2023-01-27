@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #ffffff;
 }
 .link {
@@ -16,7 +16,7 @@ body {
 
 /*-------------Header------------*/
 
-.logo {
+.header-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -28,7 +28,7 @@ body {
   color: #2e2f42;
 }
 
-.logo-begin {
+.header-logo-begin {
   color: #4d5ae5;
 }
 
@@ -57,21 +57,67 @@ body {
 
 /*-----------------Hero-----------*/
 
-.hero {
+.hero-item {
   background-color: #2e2f42;
 }
 .hero-header {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 
-/*-----------------Footer-----------*/
-.footer-logo {
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+/*--------------Features--------------*/
 
+.features-item {
+}
+
+.features-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+/*--------------Work description--------------*/
+
+.Work-description-item {
+}
+
+.Work-description-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/*-----------------Our team------------------------*/
+
+/*-----------------Footer-----------*/
+
+.footer-item {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  background-color: #2e2f42;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   display: flex;
@@ -81,4 +127,5 @@ body {
   color: #f4f4fd;
 }
 .footer-logo-begin {
+  color: #4d5ae5;
 }
