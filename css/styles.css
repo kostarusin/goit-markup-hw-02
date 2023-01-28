@@ -137,7 +137,6 @@ body {
 }
 
 .Work-description-header {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -152,7 +151,6 @@ body {
 }
 
 .our-team-header {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -215,7 +213,7 @@ body {
 .work-prop-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
